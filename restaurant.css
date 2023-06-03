@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,600&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&family=Oswald&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    background:#cf9833;
+    font-family: 'montserrat';
+    letter-spacing: 0.2em;
+    box-sizing: border-box;
+    
+}
+#main{
+    width:1000px;
+    height:500px;
+    background-color: white;
+    margin: 100px auto;
+
+}
+#header{
+    color:white;
+    background:rgb(15, 8, 8);
+    height:80px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+
+#list{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#list li {
+    margin:10px;
+}
+#list li:hover{
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+  
+}
+#list li:hover{
+    color:#cf9833;
+}
